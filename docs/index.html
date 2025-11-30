@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shipping Dashboard</title>
+    <style>
+        body {{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }}
+        h1 {{
+            text-align: center;
+        }}
+        .grid {{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }}
+        .panel {{
+            flex: 1 1 45%;
+            text-align: center;
+        }}
+        img {{
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+        }}
+    </style>
+</head>
+<body>
+    <h1>Shipping Dashboard</h1>
+    <div class="grid">
+        <div class="panel">
+            <h2>Shipments per warehouse</h2>
+            <img src="shipping_per_warehouse.png" alt="Shipments per warehouse">
+        </div>
+        <div class="panel">
+            <h2>Mode of shipment</h2>
+            <img src="mode_of_shipment.png" alt="Mode of shipment">
+        </div>
+        <div class="panel">
+            <h2>Average customer rating</h2>
+            <img src="average_customer_rating.png" alt="Average customer rating">
+        </div>
+        <div class="panel">
+            <h2>Weight distribution</h2>
+            <img src="weight_distribution.png" alt="Weight distribution">
+        </div>
+    </div>
+</body>
+</html>
